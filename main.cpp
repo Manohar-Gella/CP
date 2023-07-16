@@ -4,6 +4,8 @@
 # include <bits/stdc++.h>
 using namespace std;
 
+// this file includes the main gothourgh doc of competititve programming notese
+
 int main() {
     cout << "Manohar Gella" << endl;
     cout << "Compitetive programming notese" << endl;
