@@ -1,37 +1,25 @@
-
 #include <iostream>
-#include <string>
-# include <bits/stdc++.h>
-using namespace std;
 
-// this file includes the main gothourgh doc of competititve programming notese
+// Function to calculate the factorial of a number
+unsigned long long factorial(int n) {
+    if (n == 0 || n == 1) {
+        return 1;
+    }
+    return n * factorial(n - 1);
+}
 
 int main() {
-    cout << "Manohar Gella" << endl;
-    cout << "Compitetive programming notese" << endl;
-    cout << "random change" << endl;
-    cout << "otehr change" << endl;
-    cout << "lets do icpc" << endl;
-    std::string name;
-    int age;
-    std::string email;
+    int num;
+    
+    std::cout << "Enter a non-negative integer: ";
+    std::cin >> num;
 
-    // Form input
-    std::cout << "Please fill in the form:\n";
-    std::cout << "Name: ";
-    std::getline(std::cin, name);
+    if (num < 0) {
+        std::cout << "Factorial is not defined for negative numbers." << std::endl;
+    } else {
+        unsigned long long result = factorial(num);
+        std::cout << "Factorial of " << num << " is " << result << std::endl;
+    }
 
-    std::cout << "Age: ";
-    std::cin >> age;
-    std::cin.ignore(); // Ignore the newline character in the input buffer
-
-    std::cout << "Email: ";
-    std::getline(std::cin, email);
-
-    // Form submission
-    std::cout << "\nForm submitted successfully!\n";
-    std::cout << "Name: " << name << "\n";
-    std::cout << "Age: " << age << "\n";
-    std::cout << "Email: " << email << "\n";
     return 0;
 }
