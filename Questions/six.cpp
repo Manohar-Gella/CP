@@ -1,4 +1,8 @@
+// Certainly! Let's consider a medium-level LeetCode question. One such problem is "3Sum." The problem statement is as follows:
 
+// Problem: 3Sumi
+
+// Given an array nums of n integers, find all unique triplets in the array which gives the sum of zero.
 #include <iostream>
 #include <vector>
 #include <algorithm>
