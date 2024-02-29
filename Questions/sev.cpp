@@ -25,7 +25,7 @@ bool isPalindrome(const std::string& str) {
 }
 
 int main() {
-    // Test the function
+    // Test the function.
     std::string input;
     std::cout << "Enter a string: ";
     std::getline(std::cin, input);
