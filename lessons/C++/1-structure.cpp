@@ -1,7 +1,7 @@
 #include <iostream>
-
+using namespace std;
 
 int main() {
-    std::cout<<"Manohar Gella";
+    cout<<"Manohar Gella"<<endl;
     return 0;
 }
