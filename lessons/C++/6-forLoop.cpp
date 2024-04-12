@@ -59,4 +59,15 @@ int main() {
     return 0;
 }
 
+// a-z alpha printing uisng for loop in C++
+
+#include <iostream>
+using namespace std;
+int main() {
+    for(char a = 'a'; a<='z'; a++){
+        cout << a << " ";
+    }
+    return 0;
+}
+
 // end
