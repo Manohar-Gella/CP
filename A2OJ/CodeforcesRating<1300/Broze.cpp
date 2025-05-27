@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-// manohargella
+// manohargella.
 int main(){
     string s;
     cin >> s;
